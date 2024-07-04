@@ -12,6 +12,11 @@ public class Main {
         nomesIdades.put("Lily", 34);
         nomesIdades.put("Mary", 7);
 
+        int idadeJoe = nomesIdades.get("Joe");
+
         System.out.println(nomesIdades);
+        System.out.println(idadeJoe);
+
+        System.out.println(nomesIdades.containsKey("Bob"));
     }
 }
