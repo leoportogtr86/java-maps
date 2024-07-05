@@ -30,6 +30,10 @@ public class Ex1 {
             System.out.println("---------------------");
             System.out.println("Chave: " + entradas.getKey() + "\nValor: " + entradas.getValue());
         }
+
+        System.out.println(nomesIdades.size());
+        nomesIdades.clear();
+        System.out.println(nomesIdades.size());
     }
 }
 
@@ -50,3 +54,9 @@ public class Ex1 {
 
 //5. **Iteração sobre um Mapa**
 //        - Itere sobre todas as entradas do mapa criado no exercício 1 e imprima cada chave e valor.
+
+//6. **Tamanho do Mapa**
+//        - Imprima o tamanho do mapa criado no exercício 1.
+
+//7. **Limpar o Mapa**
+//        - Limpe todas as entradas do mapa criado no exercício 1 e verifique se está vazio.
